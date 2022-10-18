@@ -1,0 +1,246 @@
+﻿	.CH_text {
+		font-family: "Microsoft YaHei";
+	}
+	.ch_fontsize1{font-size:0.8em;}
+	
+	.remark{
+		font-size:0.8em;
+	color:#666666;
+	font-weight:200;
+	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	padding-bottom:0px;
+	line-height:1.2em;
+	text-align:justify;
+
+}
+.asterisk {
+	font-weight:400; color:#FFCC00;		
+}
+.asterisk2 {
+	font-weight:400; color:green;		
+}
+
+
+
+
+/* RADIO SELECT BEAR BOY */
+
+
+.control {
+    display: block;
+    position: relative;
+    padding-left:32px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    cursor: pointer;
+    font-size:1em;
+    font-weight:400;
+    text-align:left;
+    
+}
+    .control input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+.control_indicator {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background: #d90e90;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: #b70276;
+}
+
+.control input:checked ~ .control_indicator {
+    background: #d90e90;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+    background: #d90e90;
+}
+.control input:disabled ~ .control_indicator {
+    background: #e6e6e6;
+    opacity: 1;
+    pointer-events: none;
+}
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+.control input:checked ~ .control_indicator:after {
+    display: block;
+}
+.control-radio .control_indicator {
+    border-radius: 50%;
+}
+
+.control-radio .control_indicator:after {
+    left: 6px;
+    top: 6px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: background 250ms;
+}
+.control-radio input:disabled ~ .control_indicator:after {
+    background: #7b7b7b;
+}.control-radio .control_indicator::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    margin-left: -1.3rem;
+    margin-top: -1.3rem;
+    background: #d90e90;
+    border-radius: 3rem;
+    opacity: 0.5;
+    z-index: 99999;
+    transform: scale(0);
+}
+@keyframes s-ripple {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0.01;
+        transform: scale(1);
+    }
+}
+@keyframes s-ripple-dup {
+   0% {
+       transform: scale(0);
+    }
+   30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+.control-radio input + .control_indicator::before {
+    animation: s-ripple 250ms ease-out;
+}
+.control-radio input:checked + .control_indicator::before {
+    animation-name: s-ripple-dup;
+}
+
+
+/* -- quantity box -- */
+/* -- quantity box -- */
+
+.quantity {
+ display: inline-block; }
+
+.quantity .input-text.qty {
+ width: 55px;
+ height: 45px;
+ padding: 0 5px;
+ text-align: center;
+ background-color:#d90e90;
+ border: 2px solid #d90e90;
+ color:#FFFFFF;  font-size:1.2em; font-weight:bold;
+
+}
+
+.quantity.buttons_added {
+ text-align: left;
+ position: relative;
+ white-space: nowrap;
+ vertical-align: top; }
+
+.quantity.buttons_added input {
+ display: inline-block;
+ margin: 0;
+ vertical-align: top;
+ box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+ padding: 0px 10px 8px;
+ height:45px;
+ background-color: #d90e90;
+ border: 1px solid #d90e90;
+ color: #FFFFFF; font-size:1.4em; font-weight:bold;
+ cursor:pointer;
+ 
+ }
+
+.quantity.buttons_added .minus {
+ border-right: 0; }
+
+.quantity.buttons_added .plus {
+ border-left: 0; }
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+ background: #FFFFFF; color:#d90e90;font-weight:600; font-size:1.4em; }
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ margin: 0; }
+ 
+ .quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+ outline: none; }
+ 
+ 
+ 
+ .pricing-modern{
+box-shadow: 14px 12px 17px 0px rgba(0,0,0,0.95);
+-webkit-box-shadow: 14px 12px 17px 0px rgba(0,0,0,0.95);
+-moz-box-shadow: 14px 12px 17px 0px rgba(0,0,0,0.95);	
+}
+
+.transparent{
+	color: #000!important; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0)!important;
+}
+
+@media screen and (min-width: 992px){
+.no-height {
+	height:100px!important;
+}
+}
+
+
+.cart_link{
+	font-size:0.8em;
+}
+
+@media (min-width: 576px) {
+		.cart_link{
+	font-size:1em;
+}
+
+}
+
+@media (min-width: 768px) {
+		.cart_link{
+	font-size:1.2em;
+}
+
+}

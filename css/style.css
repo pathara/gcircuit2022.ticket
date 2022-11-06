@@ -312,7 +312,7 @@ h3 + img {
 }
 
 .font-secondary {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .text-spacing-0 {
@@ -1312,7 +1312,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .rights {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 /** @group Components */
@@ -1340,7 +1340,7 @@ body {
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	margin-bottom: 0;
 	text-transform: uppercase;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #26264b;
 }
 
@@ -1616,7 +1616,7 @@ h5 + p,
 }
 
 .event-detail {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
 }
 
@@ -1626,7 +1626,7 @@ h5 + p,
 
 .event-detail-link {
 	display: inline-block;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: .2em;
@@ -1722,7 +1722,7 @@ h5 + p,
 	display: inline-block;
 	max-width: 390px;
 	z-index: 1;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1855,7 +1855,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .block-address {
 	padding: 30px 20px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #ffffff;
 	background-color: #d90e90;
 }
@@ -2766,7 +2766,7 @@ a.icon[class*='youtube']:hover {
 
 .table-custom th {
 	padding: 35px 24px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: .05em;
@@ -2918,11 +2918,11 @@ hr {
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-	padding: 19px 39px;
+	padding: 12px 29px;
 	font-size: 18px;
 	line-height: 1.25;
 	border: 0;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 600;
 	letter-spacing: 0;
 	text-transform: uppercase;
@@ -3060,12 +3060,12 @@ hr {
 
 .button-primary:before {
 	background-repeat: repeat-x;
-	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%);
+	background-image: linear-gradient(to right, #199dfc 0%, #b72afb 75%); /*ORIGINAL linear-gradient(to right, #822ea8 0%, #d90e90 100%);*/
 }
 
 .button-primary:after {
 	background-repeat: repeat-x;
-	background-image: linear-gradient(to right, #d90e90 0%, #822ea8 100%);
+	background-image: linear-gradient(to right, #b72afb 15%, #199dfc 80%);  /*ORIGINAL linear-gradient(to right, #d90e90 0%, #822ea8 100%); */
 }
 
 .button-secondary:before {
@@ -3240,7 +3240,7 @@ hr {
 
 .btn-primary {
 	border-radius: 3px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 600;
 	letter-spacing: .05em;
 	text-transform: uppercase;
@@ -3769,7 +3769,7 @@ textarea.form-input {
 }
 
 .news-meta {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.2;
 }
 
@@ -3802,7 +3802,7 @@ textarea.form-input {
 
 .news-link {
 	display: inline-block;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -3858,7 +3858,7 @@ textarea.form-input {
 
 .post-meta,
 .post-single-meta {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.2;
 	transform: translate3d(0, -23px, 0);
 	margin-bottom: -23px;
@@ -3912,7 +3912,7 @@ textarea.form-input {
 }
 
 .post-single-quote {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.33333;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -3949,7 +3949,7 @@ textarea.form-input {
 }
 
 .post-single-terms {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 20px;
 	line-height: 1.2;
 	font-weight: 500;
@@ -3979,7 +3979,7 @@ textarea.form-input {
 
 .post-single-about-link {
 	display: inline-block;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -4021,12 +4021,12 @@ textarea.form-input {
 }
 
 .post-single-comment-author {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 600;
 }
 
 .post-single-comment-date {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: .2em;
@@ -4210,7 +4210,7 @@ textarea.form-input {
 	max-width: 300px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .post-mini:nth-child(1) {
@@ -4472,7 +4472,7 @@ textarea.form-input {
 /** @section Testimonial */
 .testimonial {
 	padding-top: 10px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .testimonial-text {
@@ -4506,7 +4506,7 @@ textarea.form-input {
 }
 
 .testimonial-footer {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 600;
 }
 
@@ -4667,7 +4667,7 @@ textarea.form-input {
 	flex-wrap: wrap;
 	margin-bottom: -10px;
 	margin-left: -10px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .pagination-classic:empty {
@@ -4775,7 +4775,7 @@ textarea.form-input {
 }
 
 .pricing-header {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	background-color: #ffffff;
 	padding: 30px 20px 26px;
 	border-bottom: 1px solid #f4f2ee;
@@ -4856,18 +4856,23 @@ textarea.form-input {
 }
 
 .pricing-modern-header {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	background-color: #f09922;
-	padding: 30px 20px 26px;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	/* background-color: #f09922; */
+	padding: 15px 12px;
 }
+.pricing-modern-header2, .pricing-modern-header3 {
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	/* background-color: #f09922; */
+	padding: 20px 12px; max-height:14em;
+}
+
 
 .pricing-modern-body {
 	padding: 20px 20px;
 	background-color: #ffffff;
-	border: 2px solid #f4f2ee;
+	border: 0px solid #FFFFFF;
 	border-top: 0;
 }
-
 .pricing-modern-title {
 	font-size: 14px;
 	color: #ffffff;
@@ -4877,9 +4882,25 @@ textarea.form-input {
 	font-size:2em;
 	color: #ffffff;
 	font-weight:400;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	padding-bottom:0px;
+
+}
+.pricing-ticket-title2 {
+	font-size:1.5em;
+	color: #ffffff;
+	font-weight:400;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	padding-bottom:10px;
-	
+
+}
+.pricing-ticket-title3 {
+	font-size:1.4em;
+	color: #ffffff;
+	font-weight:400;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	padding-bottom:10px;
+
 }
 
 
@@ -4904,11 +4925,11 @@ textarea.form-input {
 }
 
 .pricing-modern-primary .pricing-modern-header {
-	background-color: #d90e90;
+	/* background-color: #d90e90; */
 }
 
 .pricing-modern-primary .pricing-modern-body {
-	border-color: #d90e90;
+	/*border-color: #d90e90;*/
 }
 
 @media (min-width: 992px) {
@@ -4922,11 +4943,17 @@ textarea.form-input {
 		margin-top: 50px;
 	}
 	.pricing-modern-header {
-		padding: 30px 10px 30px;
+		padding: 15px 10px;
 	}
+	.pricing-modern-header2, .pricing-modern-header3 {
+		padding: 30px 10px; max-height:13em;
+	}
+
 	.pricing-modern-body {
 		padding: 20px 20px;
+
 	}
+
 }
 
 .context-dark .pricing-modern-title {
@@ -5085,7 +5112,7 @@ textarea.form-input {
 }
 
 .speaker-position, .context-dark .speaker-position {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.2;
 	color: #8b8b9a;
 }
@@ -5183,7 +5210,7 @@ textarea.form-input {
 }
 
 .speaker-classic-position, .context-dark .speaker-classic-position {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.2;
 	color: #8b8b9a;
 }
@@ -5250,7 +5277,7 @@ textarea.form-input {
 
 .sponsor-info-link {
 	display: inline-block;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: .2em;
@@ -5776,7 +5803,7 @@ textarea.form-input {
 }
 
 .schedule-classic-simple {
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .schedule-classic-simple * + .schedule-classic-time {
@@ -6168,7 +6195,7 @@ textarea.form-input {
 .ui-to-top {
 	position: fixed;
 	right: 15px;
-	bottom: 15px;
+	bottom: 100px;
 	z-index: 100;
 	width: 50px;
 	height: 50px;
@@ -6179,10 +6206,9 @@ textarea.form-input {
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
-	transition: .45s all ease-in-out;
-	transform: translate3d(0, 100px, 0);
+	transition: .6s all ease-in-out;
+	transform: translate3d(0, 160px, 0);
 }
-
 .ui-to-top:after {
 	content: '';
 	position: absolute;
@@ -6219,7 +6245,7 @@ html.tablet .ui-to-top {
 @media (min-width: 576px) {
 	.ui-to-top {
 		right: 40px;
-		bottom: 40px;
+		bottom: 100px;
 	}
 }
 
@@ -6523,7 +6549,7 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-nav-link {
 	position: relative;
 	display: inline-block;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.2;
 	font-weight: 600;
@@ -6564,7 +6590,7 @@ html.tablet .ui-to-top {
 	margin-top: 22px;
 	visibility: hidden;
 	opacity: 0;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	text-align: left;
 	border: 1px solid #f8f7f4;
 	transform: translate3d(0, 30px, 0);
@@ -8772,7 +8798,7 @@ button.swiper-pagination-bullet {
 .rd-search-results-live .search-quick-result {
 	padding-left: 15px;
 	padding-right: 15px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 30px;
@@ -8803,7 +8829,7 @@ button.swiper-pagination-bullet {
 
 .rd-search-results-live .search-title {
 	position: relative;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	color: #26264b;
@@ -8824,7 +8850,7 @@ button.swiper-pagination-bullet {
 	z-index: 0;
 	display: block;
 	padding: 8px;
-	font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 0;
@@ -9083,7 +9109,7 @@ button.swiper-pagination-bullet {
 .tabs-custom .nav-link {
 	position: relative;
 	padding: 20px 12px;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #ffffff;
 	border: none;
 	border-radius: 0;
@@ -9365,7 +9391,7 @@ button.swiper-pagination-bullet {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	background-color: #ffffff;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .card-custom .card-body {
@@ -9450,7 +9476,7 @@ button.swiper-pagination-bullet {
 /** @section Counter */
 .box-counter {
 	position: relative;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	text-align: center;
 	color: #2c343b;
 }
@@ -9549,7 +9575,7 @@ button.swiper-pagination-bullet {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	transform: translate3d(0, -10px, 0);
 	margin-bottom: -10px;
 	margin-left: -5px;
@@ -9602,7 +9628,7 @@ button.swiper-pagination-bullet {
 .progress-circle {
 	display: inline-block;
 	text-align: center;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.2;
 }
 
@@ -9663,7 +9689,7 @@ button.swiper-pagination-bullet {
 	margin-right: -5px;
 	line-height: 1.2;
 	text-align: center;
-	font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-bottom: -20px;
 }
 
@@ -12770,7 +12796,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .slick-prev:before, .slick-next:before {
-	font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 20px;
 	line-height: 1;
 	color: white;
@@ -12863,7 +12889,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	content: "•";
 	width: 20px;
 	height: 20px;
-	font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 6px;
 	line-height: 20px;
 	text-align: center;
@@ -14071,12 +14097,3 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	transform: rotate(-9deg) scale(1.03);
 	pointer-events: none;
 }
-
-
-
-
-
-
-
-
-

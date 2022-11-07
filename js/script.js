@@ -32,7 +32,7 @@
       preloader:               $( '.preloader' ),
       rdNavbar:                $( '.rd-navbar' ),
       rdMailForm:              $( '.rd-mailform' ),
-      rdInputLabel:            $( '.form-label' ),
+      rdInputLabel:            $( '.form-label, .form-label2' ),
       regula:                  $( '[data-constraints]' ),
       radio:                   $( 'input[type="radio"]' ),
       search:                  $( '.rd-search' ),

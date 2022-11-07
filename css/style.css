@@ -2753,25 +2753,30 @@ a.icon[class*='youtube']:hover {
 	width: 100%;
 	min-width: 510px;
 	max-width: 100%;
-	text-align: left;
+	
 	background: #ffffff;
 	border-collapse: collapse;
 }
-
+.table-custom th{
+	
+}
 .table-custom th,
 .table-custom td {
 	color: #2c343b;
 	background: #ffffff;
+	text-align:left;
 }
 
 .table-custom th {
-	padding: 35px 24px;
-	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	font-size: 14px;
+	padding: 1em 1em;
+	font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size:1em;
 	font-weight: 700;
 	letter-spacing: .05em;
 	text-transform: uppercase;
-	background: #f8f7f4;
+	background:#ececec;
+	text-align:left;																										
+	
 }
 
 @media (max-width: 991.98px) {
@@ -2782,11 +2787,11 @@ a.icon[class*='youtube']:hover {
 }
 
 .table-custom td {
-	padding: 17px 24px;
+	padding: 1em;
 }
 
 .table-custom tbody tr:first-child td {
-	border-top: 0;
+	border-top: 0; 
 }
 
 .table-custom tr td {
@@ -3340,27 +3345,30 @@ input:-webkit-autofill ~ .form-validation {
 .form-input {
 	display: block;
 	width: 100%;
-	min-height: 78px;
-	padding: 23px 36px;
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 31px;
-	color: #8c8c9a;
+	min-height: 1em;
+	padding: 10px 20px;
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.2em;
+	color:#333333;
 	background-color: #f4f2ee;
 	background-image: none;
 	border-radius: 0;
 	-webkit-appearance: none;
-	transition: .3s ease-in-out;
-	border: 1px solid #f4f2ee;
+	transition: .1s ease-in-out;
+	border: 1px solid #c2c2c2;
 }
+
+
 
 .form-input:focus {
 	outline: 0;
+	box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
 }
 
 textarea.form-input {
-	height: 272px;
-	min-height: 78px;
+	height:102px!important;
+	min-height: 102px;
 	max-height: 462px;
 	resize: vertical;
 }
@@ -3374,7 +3382,7 @@ textarea.form-input {
 	display: block;
 }
 
-.form-label,
+.form-label,.form-label2,
 .form-label-outside {
 	margin-bottom: 0;
 	color: #8c8c9a;
@@ -3383,14 +3391,31 @@ textarea.form-input {
 
 .form-label {
 	position: absolute;
-	top: 39px;
+	top:20px;
 	left: 0;
 	right: 0;
-	padding-left: 36px;
-	padding-right: 36px;
-	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1em;
 	font-weight: 500;
-	line-height: 31px;
+	line-height:1.2em;
+	pointer-events: none;
+	text-align: left;
+	z-index: 9;
+	transition: .25s;
+	will-change: transform;
+	transform: translateY(-50%);
+}
+.form-label2 {
+	position: absolute;
+	top:20px;
+	left: 5em;
+	right: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1em;
+	font-weight: 500;
+	line-height:1.2em;
 	pointer-events: none;
 	text-align: left;
 	z-index: 9;
@@ -3399,6 +3424,7 @@ textarea.form-input {
 	transform: translateY(-50%);
 }
 
+
 .form-label.focus {
 	opacity: 0;
 }
@@ -3406,6 +3432,14 @@ textarea.form-input {
 .form-label.auto-fill {
 	color: #8c8c9a;
 }
+.form-label2.focus {
+	opacity: 0;
+}
+
+.form-label2.auto-fill {
+	color: #8c8c9a;
+}
+
 
 .form-label-outside {
 	width: 100%;
@@ -3424,6 +3458,10 @@ textarea.form-input {
 [data-x-mode=true] .form-label {
 	pointer-events: auto;
 }
+[data-x-mode=true] .form-label2 {
+	pointer-events: auto;
+}
+
 
 .form-validation {
 	position: absolute;
@@ -3710,6 +3748,9 @@ textarea.form-input {
 .form-sm .form-label {
 	top: 25px;
 }
+.form-sm .form-label2 {
+	top: 25px;
+}
 
 .form-sm * + .button {
 	margin-top: 10px;
@@ -3717,6 +3758,7 @@ textarea.form-input {
 
 .form-lg .form-input,
 .form-lg .form-label,
+.form-lg .form-label2,
 .form-lg .select2-container .select2-choice {
 	font-size: 16px;
 }
@@ -3734,6 +3776,9 @@ textarea.form-input {
 }
 
 .form-lg .form-label {
+	top: 45px;
+}
+.form-lg .form-label2 {
 	top: 45px;
 }
 
@@ -4865,6 +4910,11 @@ textarea.form-input {
 	/* background-color: #f09922; */
 	padding: 20px 12px; max-height:14em;
 }
+.pricing-modern-header4 {
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Microsoft YaHei", STXihei, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	/* background-color: #f09922; */
+	padding: 15px 5px; max-height:12em;
+}
 
 
 .pricing-modern-body {
@@ -4947,6 +4997,9 @@ textarea.form-input {
 	}
 	.pricing-modern-header2, .pricing-modern-header3 {
 		padding: 30px 10px; max-height:13em;
+	}
+ .pricing-modern-header4 {
+		padding: 20px 10px; max-height:13em;
 	}
 
 	.pricing-modern-body {
@@ -9000,7 +9053,8 @@ button.swiper-pagination-bullet {
 }
 
 .rd-search-classic .form-input,
-.rd-search-classic .form-label {
+.rd-search-classic .form-label,
+.rd-search-classic .form-label2 {
 	letter-spacing: 0;
 }
 

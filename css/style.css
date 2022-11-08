@@ -2751,7 +2751,7 @@ a.icon[class*='youtube']:hover {
 /** @section Tables custom */
 .table-custom {
 	width: 100%;
-	min-width: 510px;
+	min-width: 300px;
 	max-width: 100%;
 	
 	background: #ffffff;

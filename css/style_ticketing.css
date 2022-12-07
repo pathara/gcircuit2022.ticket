@@ -313,17 +313,22 @@
 		color: #FFFFFF;
 		font-weight: 500;
 	}
-	.detailticket.orange strong {
+	.detailticket_a {
+		color:#808080;
+		font-weight: 500;
+	}
+
+	.detailticket.orange strong, .detailticket_a.orange strong {
 		color: #ff931a;
 		font-weight: 700;
 		font-size: 1.2em;
 	}
-	.detailticket.blue1 strong {
+	.detailticket.blue1 strong, .detailticket_a.blue1 strong {
 		color: #199dfc;
 		font-weight: 700;
 		font-size: 1.2em;
 	}
-	.detailticket.green1 strong {
+	.detailticket.green1 strong, .detailticket_a.green1 strong {
 		color: #01c8ca;
 		font-weight: 700;
 		font-size: 1.2em;
@@ -359,6 +364,13 @@
 			padding-bottom: 8px;
 			color: #FFFFFF;
 		}
+		.pricing-ticket-title5 {
+			font-size: 1.3em;
+			padding-bottom: 8px;
+			color: #FFFFFF;
+			font-weight:300; line-height:1em;
+		}
+
 		h3.heading_blue {
 			font-weight: 400;
 			font-size: 3em;
@@ -382,6 +394,13 @@
 			padding-bottom: 10px;
 			color: #FFFFFF;
 		}
+		.pricing-ticket-title5 {
+			font-size: 1.4em;
+			padding-bottom: 10px;
+			color: #FFFFFF;
+			font-weight:300;
+		}
+
 		h3.heading_blue {
 			font-weight: 400;
 			font-size: 3em;
@@ -411,6 +430,13 @@
 			padding-bottom: 8px;
 			color: #FFFFFF;
 		}
+		.pricing-ticket-title5 {
+			font-size: 1.4em;
+			padding-bottom: 8px;
+			color: #FFFFFF;
+			font-weight:300;
+		}
+
 	}
 	@media screen and (min-width: 1200px) {
 		.pricing-ticket-title2 {
@@ -426,6 +452,13 @@
 			padding-bottom: 10px;
 			color: #FFFFFF;
 		}
+		.pricing-ticket-title5 {
+			font-size: 1.4em;
+			padding-bottom: 10px;
+			color: #FFFFFF;
+			font-weight:300;
+		}
+
 		.fixheight {}
 	}
 	.covidpolicy {
@@ -513,3 +546,15 @@
 		background-color: #FFFFFF;
 		color: #000535;
 	}
+	
+	.disabled {
+    background-color:#FFCCFF;
+    color:#CCCCCC;
+     pointer-events: none;
+    opacity: 0.25;
+}
+
+.pricing-ticket-title5 > strong {
+	font-weight:800!important;
+	font-size:1.2em;
+}

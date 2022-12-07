@@ -3405,6 +3405,7 @@ textarea.form-input {
 	transition: .25s;
 	will-change: transform;
 	transform: translateY(-50%);
+	
 }
 .form-label2 {
 	position: absolute;
@@ -3426,7 +3427,7 @@ textarea.form-input {
 
 
 .form-label.focus {
-	opacity: 0;
+	opacity: 0; 
 }
 
 .form-label.auto-fill {
@@ -9174,7 +9175,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-secondary-darker:hover, .tabs-custom .nav-link-secondary-darker.active {
-	color: #26264b;
+	color:  #26264b;
 }
 
 .tabs-custom .nav-link-secondary-darker:hover .nav-link-cite, .tabs-custom .nav-link-secondary-darker.active .nav-link-cite {
@@ -9198,8 +9199,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-purple-heart:hover .nav-link-title, .tabs-custom .nav-link-purple-heart.active .nav-link-title {
-	color: #26264b;
-}
+	color: #822ea8;}
 
 .tabs-custom .nav-link-primary {
 	background-color: #d90e90;
@@ -9282,8 +9282,17 @@ button.swiper-pagination-bullet {
 .tab-content {
 	position: relative;
 	padding: 10px;
-	background-color: #f4f2ee;
+	background-color:/*#f4f2ee*/ transparent;
+	border:0.5em #f4f2ee solid;
 }
+
+.tab-content2 {
+	position: relative;
+	padding: 10px;
+	background-color:/*#f4f2ee*/ transparent;
+	border:0.5em #f4f2ee solid;
+}
+
 
 .tab-pane {
 	padding: 0 15px;
@@ -9351,6 +9360,20 @@ button.swiper-pagination-bullet {
 	height: auto;
 	overflow: visible;
 }
+.tab-content2 > .tab-pane {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+}
+
+.tab-content2 > .active {
+	display: block;
+	visibility: visible;
+	height: auto;
+	overflow: visible;
+}
+
 
 * + .tabs-custom {
 	margin-top: 30px;
@@ -9401,6 +9424,10 @@ button.swiper-pagination-bullet {
 	.tabs-vertical.tabs-custom .tab-content {
 		margin-left: 97px;
 	}
+	.tabs-vertical.tabs-custom .tab-content2 {
+		margin-left: 97px;
+	}
+
 }
 
 /** @section Panel custom */
@@ -12355,15 +12382,16 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	width: 100% !important;
 	margin: 0;
 	vertical-align: middle;
-	box-sizing: border-box;
+	box-sizing: border-box; 
 }
 
 .select2-container .select2-selection--single {
 	display: block;
-	height: 78px;
+	height: 2.5em;
 	box-sizing: border-box;
 	cursor: pointer;
 	user-select: none;
+	z-index:1; background-color:transparent;
 }
 
 .select2-container .select2-selection--single .select2-selection__rendered {
@@ -12394,7 +12422,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .select2-container .select2-search--inline {
-	align-self: center;
+	align-self: center; 
 }
 
 .select2-container .select2-search--inline .select2-search__field {
@@ -12415,18 +12443,18 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .select2-dropdown {
-	position: absolute;
+	position: absolute;/*background-color:aqua; color:fuchsia;*/
 	left: -100000px;
 	z-index: 1051;
 	width: 100%;
 	display: block;
 	box-sizing: border-box;
-	background-color: #f4f2ee;
+	background-color: #f4f2ee; border:1px #c2c2c2 solid;
 	color: #8c8c9a;
 }
 
 .select2-results {
-	display: block;
+	display: block;border:1px #c2c2c2 solid;
 }
 
 .select2-results__options {
@@ -12438,7 +12466,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .select2-results__option {
 	padding-left: 36px;
 	padding-right: 36px;
-	user-select: none;
+	user-select: none; 
 }
 
 .select2-results__option[aria-selected] {
@@ -12509,13 +12537,13 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 36px;
 	font-size: 18px;
 	line-height: 1;
-	color: #8c8c9a;
-	padding-right: 36px;
+	color:#333333; font-weight:bold;
+	padding-right: 36px; z-index:9999;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__clear {
@@ -12566,7 +12594,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .select2-container--default .select2-selection--multiple {
-	background-color: #f4f2ee;
+	background-color: #f4f2ee; 
 	cursor: text;
 }
 
@@ -12651,7 +12679,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .select2-container--default .select2-results > .select2-results__options {
-	max-height: 200px;
+	max-height:200px;
 	overflow-y: auto;
 }
 

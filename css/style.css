@@ -14241,7 +14241,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   right: -15px;
   display: block;
   background: #fff;
-  width: 120px;
+  width: 130px;
   padding-top: 0px;
   z-index: 1;
   border-radius: 5px;
@@ -14278,7 +14278,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   padding: 15px 15px;
   padding-bottom: 0;
   z-index: 2;
-  font-size: 18px;
+  font-size: 16px;
   color: #3c3c3c;
 }
 

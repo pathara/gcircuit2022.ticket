@@ -58,7 +58,7 @@
 	.control_indicator {
 		position:absolute;
 		top: 4px;
-		left: 0;
+		left: 24px;
 		height: 18px;
 		width: 18px;
 		background: #d90e90;
@@ -391,6 +391,9 @@
 			font-size: 2em;
 		}
 		.fixheight {}
+		span.nav-link-title{
+		font-size:1em;}
+
 	}
 
 		@media screen and (max-width: 480px) {
@@ -434,6 +437,9 @@
 			font-size: 2.4em;
 		}
 		.fixheight {}
+		span.nav-link-title{
+		font-size:1em;}
+
 	}
 
 	@media screen and (max-width: 575px) {
@@ -472,6 +478,9 @@
 			font-size: 2.4em;
 		}
 		.fixheight {}
+		span.nav-link-title{
+		font-size:1em;}
+
 	}
 	@media screen and (max-width: 991px) {
 	.no-height {
@@ -512,6 +521,10 @@
 		.fixheight {
 			height: auto;
 		}
+		span.nav-link-title{
+		font-size:1.2em;}
+
+
 	}
 	@media screen and (max-width: 1199px) {
 		
@@ -541,6 +554,11 @@
 			color: #FFFFFF;
 			font-weight:300;
 		}
+		span.nav-link-title{
+		font-size:1.3em;}
+
+		
+
 
 	}
 	@media screen and (min-width: 1200px) {
@@ -565,6 +583,9 @@
 		}
 
 		.fixheight {}
+		span.nav-link-title{
+		font-size:1.5em;}
+}
 	}
 	.covidpolicy {
 		background-repeat: repeat-x;

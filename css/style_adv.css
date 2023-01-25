@@ -14216,7 +14216,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .sl-nav {
-  display: inline;  background-color:black;
+  display: inline;  background-color:black;border-radius: 5px;
+  padding:10px;
 }
 
 .sl-nav ul {

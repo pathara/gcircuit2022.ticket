@@ -523,7 +523,8 @@
 		}
 		span.nav-link-title{
 		font-size:1.2em;}
-
+		
+		
 
 	}
 	@media screen and (max-width: 1199px) {
@@ -557,7 +558,11 @@
 		span.nav-link-title{
 		font-size:1.3em;}
 
-		
+				
+
+
+
+
 
 
 	}
@@ -585,7 +590,58 @@
 		.fixheight {}
 		span.nav-link-title{
 		font-size:1.5em;}
+		
+		/*lang button*/
+
+.sl-nav {
+  display: inline;  background-color:black; border-radius: 5px;
+  padding:10px;
+  font-size:1.5em;
 }
+
+.sl-nav li:hover ul {
+  top: 45px;
+  right: -10px;
+  width: 150px;
+  padding-top: 0px;
+  border-radius: 5px;
+
+}
+
+.sl-nav li:hover .triangle {
+  top: 30px;
+  right: -10px;
+  height: 20px;
+  width: 40px;
+
+}
+
+.sl-nav li:hover .triangle:after {
+  width: 15px;
+  height: 15px;
+}
+
+.sl-nav li ul li {
+  padding: 15px 15px;
+  padding-bottom: 0;
+  font-size: 20px;
+
+}
+
+.sl-nav li ul li span {
+  padding-left: 12px;
+}
+
+.sl-flag {
+  width: 20px;
+  height: 20px;
+ 
+}
+		
+}
+
+
+
 	}
 	.covidpolicy {
 		background-repeat: repeat-x;

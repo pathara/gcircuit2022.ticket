@@ -259,6 +259,13 @@
 		background: linear-gradient(90deg, rgba(222, 33, 0, 1) 0%, rgba(243, 94, 13, 1) 50%, rgba(255, 129, 20, 1) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de2100", endColorstr="#ff8114", GradientType=1);
 	}
+	.ro_bg2 {
+background: rgb(254,6,84);
+background: -moz-linear-gradient(99deg, rgba(254,6,84,1) 0%, rgba(255,29,79,1) 49%, rgba(255,188,57,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(254,6,84,1) 0%, rgba(255,29,79,1) 49%, rgba(255,188,57,1) 100%);
+background: linear-gradient(99deg, rgba(254,6,84,1) 0%, rgba(255,29,79,1) 49%, rgba(255,188,57,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe0654",endColorstr="#ffbc39",GradientType=1);	}
+
 	/*Pink to White*/
 
 	.pw_bg {
@@ -287,7 +294,21 @@
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#199dfc", endColorstr="#b72afb", GradientType=1);
 	}
 	/*blue to aqua*/
-
+	.baq_bg3
+	{
+background: rgb(13,9,192);
+background: -moz-linear-gradient(99deg, rgba(13,9,192,1) 0%, rgba(22,115,210,1) 49%, rgba(33,255,234,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(13,9,192,1) 0%, rgba(22,115,210,1) 49%, rgba(33,255,234,1) 100%);
+background: linear-gradient(99deg, rgba(13,9,192,1) 0%, rgba(22,115,210,1) 49%, rgba(33,255,234,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d09c0",endColorstr="#21ffea",GradientType=1);
+	}
+	.baq_bg2 {
+		background: rgb(12,15,214);
+		background: -moz-linear-gradient(99deg, rgba(12,15,214,1) 0%, rgba(13,83,230,1) 49%, rgba(14,185,255,1) 100%);
+		background: -webkit-linear-gradient(99deg, rgba(12,15,214,1) 0%, rgba(13,83,230,1) 49%, rgba(14,185,255,1) 100%);
+		background: linear-gradient(99deg, rgba(12,15,214,1) 0%, rgba(13,83,230,1) 49%, rgba(14,185,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0fd6",endColorstr="#0eb9ff",GradientType=1);
+	}
 	.baq_bg {
 		background: rgb(10, 1, 234);
 		background: -moz-linear-gradient(99deg, rgba(10, 1, 234, 1) 0%, rgba(18, 91, 221, 1) 50%, rgba(25, 176, 208, 1) 100%);
@@ -295,6 +316,7 @@
 		background: linear-gradient(99deg, rgba(10, 1, 234, 1) 0%, rgba(18, 91, 221, 1) 50%, rgba(25, 176, 208, 1) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a01ea", endColorstr="#19b0d0", GradientType=1);
 	}
+	
 	/*purple to pink*/
 
 	.pp_bg {
@@ -304,6 +326,27 @@
 		background: linear-gradient(99deg, rgba(131, 21, 251, 1) 0%, rgba(179, 59, 252, 1) 50%, rgba(221, 92, 252, 1) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8315fb", endColorstr="#dd5cfc", GradientType=1);
 	}
+		.pp_bg2 {
+background: rgb(147,29,235);
+background: -moz-linear-gradient(99deg, rgba(147,29,235,1) 0%, rgba(131,51,236,1) 49%, rgba(123,160,248,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(147,29,235,1) 0%, rgba(131,51,236,1) 49%, rgba(123,160,248,1) 100%);
+background: linear-gradient(99deg, rgba(147,29,235,1) 0%, rgba(131,51,236,1) 49%, rgba(123,160,248,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#931deb",endColorstr="#7ba0f8",GradientType=1);	}
+		.pp_bg3 {
+background: rgb(154,1,190);
+background: -moz-linear-gradient(99deg, rgba(154,1,190,1) 0%, rgba(102,118,213,1) 49%, rgba(44,248,237,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(154,1,190,1) 0%, rgba(102,118,213,1) 49%, rgba(44,248,237,1) 100%);
+background: linear-gradient(99deg, rgba(154,1,190,1) 0%, rgba(102,118,213,1) 49%, rgba(44,248,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9a01be",endColorstr="#2cf8ed",GradientType=1);	}
+		.pp_bg4 {
+background: rgb(255,0,102);
+background: -moz-linear-gradient(99deg, rgba(255,0,102,1) 0%, rgba(254,79,118,1) 49%, rgba(254,151,132,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(255,0,102,1) 0%, rgba(254,79,118,1) 49%, rgba(254,151,132,1) 100%);
+background: linear-gradient(99deg, rgba(255,0,102,1) 0%, rgba(254,79,118,1) 49%, rgba(254,151,132,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0066",endColorstr="#fe9784",GradientType=1);
+}
+
+
 	/*green to lime*/
 
 	.gl_bg {

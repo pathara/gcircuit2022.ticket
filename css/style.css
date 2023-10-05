@@ -1500,6 +1500,28 @@ h6,
 	line-height: 1.2;
 	color: #f09922;
 }
+h7,
+.heading-7 {
+	letter-spacing: .2em;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #d21192;
+}
+h8,
+.heading-8 {
+	letter-spacing: .1em;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #f09922;
+}
+h9,
+.heading-9 {
+	letter-spacing: .1em;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #d21192;
+}
+
 
 .video-link + h6,
 .video-link + .heading-6 {
